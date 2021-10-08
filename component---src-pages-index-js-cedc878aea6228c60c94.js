@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktrack_dx=self.webpackChunktrack_dx||[]).push([[678],{7704:function(e,n,t){t.r(n);var a=t(7294);n.default=function(){return a.createElement("main",null,a.createElement("h1",null,"TrackDX"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-cedc878aea6228c60c94.js.map
