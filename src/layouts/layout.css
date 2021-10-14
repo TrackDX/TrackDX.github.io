@@ -1,0 +1,88 @@
+@import url('./normalize.css');
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+  color: #333;
+  font-size: 16px;
+  background-color: #E8EEF0;
+}
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#333;
+}
+
+/* visited link */
+a:visited {
+  color: #333;
+}
+
+/* mouse over link */
+a:hover {
+  color: #333;
+}
+
+/* selected link */
+a:active {
+  color: #333;
+}
+
+.bg-first {
+  background-color: #f9e1ff;
+}
+.bg-second {
+  background-color: #f0caf1; 
+}
+
+.text-first {
+  color: #333;
+}
+
+.text-second {
+  color: #555;
+}
+
+.module {
+  padding: 2em 1em;
+}
+
+.module-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+}
+
+.two-column {
+  column-gap: 4em;
+  row-gap: 3em;
+  grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width: 800px) { 
+  .two-column {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .two-column {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+.text-align-center {
+  text-align: center;
+}

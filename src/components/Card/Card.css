@@ -1,0 +1,27 @@
+.card {
+  background: #FFFFFF;
+  box-shadow: 0 8px 24px -6px rgba(0,0,0,0.26);
+  border-radius: 13px;
+  box-sizing: border-box;
+  padding: 2em;
+}
+.card-title {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.card-desc {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.card-img {
+  width: 40%;
+  margin: 30px auto 0px;
+}
+
+.card-img img {
+  width: 100%;
+}

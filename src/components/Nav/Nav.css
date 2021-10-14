@@ -1,0 +1,19 @@
+.nav {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 0;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.nav ul li.active {
+  text-decoration: underline;
+}

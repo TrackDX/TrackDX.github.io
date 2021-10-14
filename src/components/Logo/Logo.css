@@ -1,0 +1,16 @@
+.logo {  
+  margin-right: 20px;
+}
+
+.logo-icon {
+}
+
+.logo-content{
+  line-height: 30px;
+}
+
+.logo-text {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #444;
+}

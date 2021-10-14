@@ -1,0 +1,26 @@
+.missions {
+  background-color: #FFF;
+}
+
+.missions .story {
+  display: flex;
+  margin: 2em auto;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.missions .story .story-cover {
+  width: 300px;
+  margin: 10px;
+}
+
+.missions .story .story-cover img {
+  width: 100%;
+}
+
+.missions .story .story-text {
+  width: 300px;
+  font-size: 1.3em;
+  margin: 10px;
+}

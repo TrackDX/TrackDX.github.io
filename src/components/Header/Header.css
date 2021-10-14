@@ -1,0 +1,25 @@
+.header {
+  padding: 18px 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 6px 25px -15px rgb(0,0,0,0.25);
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-left {
+}
+
+@media screen and (max-width: 600px) { 
+  .header-right {
+    display: none;
+  }
+}

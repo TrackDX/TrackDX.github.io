@@ -1,0 +1,14 @@
+.services {
+  background-image: linear-gradient(180deg, #FEFAFF 0%, #FDF2FF 100%);
+}
+
+.service-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .service-content {
+    width: 100%;
+  }
+}
