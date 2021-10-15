@@ -3,12 +3,16 @@
 }
 
 .service-content {
-  width: 60%;
-  margin: 0 auto;
+  margin-bottom: 3em;
 }
-
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .service-content {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1800px) {
+  .service-content {
+    width: 100%;
+  }
+} */

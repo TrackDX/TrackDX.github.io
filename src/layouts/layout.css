@@ -66,12 +66,18 @@ a:active {
 }
 
 .two-column {
-  column-gap: 4em;
-  row-gap: 3em;
-  grid-template-columns: 50% 50%;
+  column-gap: 50px;
+  row-gap: 30px;
+  grid-template-columns: 400px 400px;
+}
+@media screen and (max-width: 800px) { 
+  .module-title {
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+  }
 }
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 900px) { 
   .two-column {
     grid-template-columns: 100%;
   }
@@ -79,7 +85,7 @@ a:active {
 
 @media screen and (min-width: 1800px) {
   .two-column {
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 400px 400px 400px 400px;
   }
 }
 
