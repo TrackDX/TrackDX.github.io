@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.missions .story:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
 .missions .story .story-cover {
   width: 300px;
   margin: 10px;
@@ -30,5 +34,8 @@
     width: 100%;
     flex-direction: column;
     text-align: center;
+  }
+  .missions .story:nth-child(odd) {
+    flex-direction: column;
   }
 }

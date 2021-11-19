@@ -21,11 +21,11 @@ export default function Missions() {
         </div>
       </div>
       <div className="story">
-        <div className="story-text">
-          <FormattedMessage id="vision.detail" />
-        </div>
         <div className="story-cover">
           <img src={visionSVG} />
+        </div>
+        <div className="story-text">
+          <FormattedMessage id="vision.detail" />
         </div>
       </div>
       <div className="story">

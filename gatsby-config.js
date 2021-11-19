@@ -3,8 +3,8 @@ const languages = require('./src/data/languages');
 module.exports = {
   siteMetadata: {
     siteUrl: "https://trackdx-macau.com/",
-    title: "TrackDX",
-    keywords: 'TrackDX,基源有限公司,澳門,服務,產品行銷,檢測代理,諮詢,顧問,進出口貿易,會展服務',
+    title: "TrackDx",
+    keywords: 'TrackDx,基源有限公司,澳門,服務,產品行銷,檢測代理,諮詢,顧問,進出口貿易,會展服務',
     languages,
   },
   plugins: [

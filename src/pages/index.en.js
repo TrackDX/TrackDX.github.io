@@ -8,8 +8,8 @@ import Layout from "../layouts/layout.en"
 const IndexPage = (props) => (
   <Layout location={props.location}>
     <Intro />
-    <Services />
     <Missions />
+    <Services />
   </Layout>
 )
 

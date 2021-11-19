@@ -6,9 +6,9 @@ export default function Nav() {
   return (
     <nav className="nav">
       <ul>
-        <li><FormattedMessage id="introduction"/></li>
-        <li><FormattedMessage id="services"/></li>
-        <li><FormattedMessage id="mission"/></li>
+        {/* <li><FormattedMessage id="introduction"/></li> */}
+        {/* <li><FormattedMessage id="services"/></li> */}
+        {/* <li><FormattedMessage id="mission"/></li> */}
       </ul>
     </nav>
   )
