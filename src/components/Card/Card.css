@@ -4,6 +4,7 @@
   border-radius: 13px;
   box-sizing: border-box;
   padding: 2em;
+  margin: 0 1em;
 }
 .card-title {
   text-align: center;

@@ -7,7 +7,7 @@ export default function Logo(props) {
   return (
     <div className="logo">
       <Link className="logo-content" to="/">
-        <StaticImage className="logo-icon" src="../../images/icon.png" height={40} style={{ marginRight: 9 }}/>
+        <StaticImage className="logo-icon" src="../../images/banner.png" height={40} style={{ marginRight: 9 }}/>
       </Link>
     </div>
   )

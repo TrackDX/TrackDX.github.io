@@ -2,7 +2,7 @@ module.exports = {
   'en': 'EN',
   'zh-mo': '中文',
   'btn.moreDetail': '了解更多',
-  'introduction': '公司簡介',
+  'introduction': '追你所求',
   'introduction.subtitle': '基源有限公司是澳門一家專注服務和產品行銷的公司, 為本土巿場引進國際優秀產品並向合作品牌提供最具巿場競爭力的產品銷售方案, 以解決本土需求. 我們的業務涵蓋檢測代理、諮詢及顧問、進出口貿易和會展服務',
   'services': '服務項目',
   'ourServices': '我們的服務',

@@ -70,7 +70,15 @@ a:active {
   row-gap: 30px;
   grid-template-columns: 400px 400px;
 }
-@media screen and (max-width: 800px) { 
+
+@media screen and (max-width: 400px) { 
+  .module-title {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) { 
   .module-title {
     font-size: 1.8rem;
     margin-bottom: 1em;

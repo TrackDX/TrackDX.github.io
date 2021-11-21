@@ -1,4 +1,5 @@
 .intro {
+  height: 35vw;
   overflow: hidden;
 }
 .intro-banner {
@@ -34,19 +35,49 @@
   line-height: 1.4em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .intro {
-    font-size: 5px;
+    height: 50vw;
+    font-size: 10px;
+  }
+  .title {
+    font-size: 2em;
+  }
+  .intro-content {
+    width: 90%;
+  }
+  .subtitle {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .intro {
+    height: 45vw;
+    font-size: 8px;
+  }
+  .intro-content {
+    width: 90%;
   }
 }
 
 
-@media screen and (max-width: 900px) and (min-width: 600px) { 
+@media screen and (min-width: 600px) and (max-width: 900px) { 
   .intro {
+    height: 40vw;
     font-size: 10px;
   }
 }
 
-@media screen and (min-width: 1800px) {
-  
+@media screen and (min-width: 900px) and (max-width: 1024px) { 
+  .intro {
+    height: 30vw;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .intro {
+    height: 600px;   
+  } 
 }

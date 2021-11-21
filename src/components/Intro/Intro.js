@@ -11,7 +11,7 @@ export default function Intro() {
         <StaticImage
           src="../../images/intro.jpg"
           layout="fullWidth"
-          aspectRatio={2.8 / 1}
+          aspectRatio={18/9}
           formats={["auto", "webp", "avif"]}
         />
         <div className="intro-content">
